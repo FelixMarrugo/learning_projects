@@ -7,15 +7,19 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre">
+    <div class="container">
+        <div class="row">
+            <form action="/ejemplo15.html" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
 
-        <br>
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido" id="apellido">
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
 
-        <button type="submit">Enviar Datos</button>
-    </form>
+                <button type="submit" onclick="datos()">Enviar Datos</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
